@@ -3,6 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
+  - ipykernel
+  - jupyterlab
+  - ipywidgets
   - pip
   - pip:
       - langchain==0.3.25
